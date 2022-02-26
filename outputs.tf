@@ -1,3 +1,3 @@
-output "torrc" {
+output "rendered" {
   value = local.joined_options
 }

@@ -1,0 +1,14 @@
+# terraform-null-torrc
+
+Renders a configuration file for tor.
+
+## Example
+
+```
+module "torrc" {
+  source = "sr2c/torrc/null"
+  namespace = "<yourorg>"
+  name = "bridge"
+}
+```
+
